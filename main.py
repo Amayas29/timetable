@@ -61,7 +61,7 @@ def choose(opt_units, number_units):
 
 if len(sys.argv) < 3:
     print(
-        f"Usage: {sys.argv[0]} <filename : String> <number of optinals units : Int> <required units codes : List>")
+        f"Usage: python3 {sys.argv[0]} <filename : String> <number of optinals units : Int> <required units codes : List>")
     exit(1)
 
 try:
@@ -103,8 +103,9 @@ if timetables is None:
 
 str_u = ", ".join([u[1] for u in UNITS])
 log.log(
-    f"There are the timetables for the units : {str_u}\n", Logger.HEADER)
+    f"The timetables for the units : {str_u} are saved in results.txt file\n", Logger.HEADER)
 
-for table in timetables:
-    print(toprettytable(table, DAYS, TIME))
-    print("\n\n")
+with open("results.txt", "w") as f:
+    for table in timetables:
+        f.write(str(toprettytable(table, DAYS, TIME)))
+        f.write("\n\n")
