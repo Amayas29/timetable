@@ -1,0 +1,142 @@
+{
+  "lundi": [
+    [{ "etype": "Cours", "name": "SYS", "code": "LU3IN010", "group": null }],
+    [
+      { "etype": "Cours", "name": "COMPAR", "code": "LU3IN032", "group": null },
+      { "etype": "Tme", "name": "DATA", "code": "LU3IN026", "group": 1 },
+      { "etype": "Td", "name": "IA", "code": "LU3IN025", "group": 1 },
+      { "etype": "Td", "name": "CRYPTO", "code": "LU3IN024", "group": 1 }
+    ],
+    [],
+    [
+      { "etype": "Td", "name": "COMPAR", "code": "LU3IN032", "group": 1 },
+      { "etype": "Td", "name": "CALC", "code": "LU3IN030", "group": 1 },
+      { "etype": "Tme", "name": "DATA", "code": "LU3IN026", "group": 1 },
+      { "etype": "Tme", "name": "IA", "code": "LU3IN025", "group": 1 },
+      { "etype": "Tme", "name": "CRYPTO", "code": "LU3IN024", "group": 1 }
+    ],
+    [
+      { "etype": "Tme", "name": "COMPAR", "code": "LU3IN032", "group": 1 },
+      { "etype": "Tme", "name": "CALC", "code": "LU3IN030", "group": 1 },
+      { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 2 }
+    ],
+    [{ "etype": "Tme", "name": "SYS", "code": "LU3IN010", "group": 2 }]
+  ],
+  "mardi": [
+    [
+      {
+        "etype": "Cours",
+        "name": "PRECH",
+        "code": "LU3IN013-rech",
+        "group": null
+      }
+    ],
+    [
+      { "etype": "Cours", "name": "WEB", "code": "LU3IN017", "group": null },
+      { "etype": "Td", "name": "IA", "code": "LU3IN025", "group": 2 },
+      { "etype": "Td", "name": "CRYPTO", "code": "LU3IN024", "group": 4 }
+    ],
+    [],
+    [
+      { "etype": "Cours", "name": "COMPIL", "code": "LU3IN018", "group": null },
+      { "etype": "Tme", "name": "IA", "code": "LU3IN025", "group": 2 },
+      { "etype": "Tme", "name": "CRYPTO", "code": "LU3IN024", "group": 4 },
+      { "etype": "Td", "name": "IA", "code": "LU3IN025", "group": 3 },
+      { "etype": "Td", "name": "WEB", "code": "LU3IN017", "group": 1 },
+      { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 1 }
+    ],
+    [
+      { "etype": "Tme", "name": "DATA", "code": "LU3IN026", "group": 2 },
+      { "etype": "Tme", "name": "IA", "code": "LU3IN025", "group": 3 },
+      { "etype": "Tme", "name": "WEB", "code": "LU3IN017", "group": 1 },
+      { "etype": "Tme", "name": "SYS", "code": "LU3IN010", "group": 1 }
+    ],
+    [{ "etype": "Tme", "name": "DATA", "code": "LU3IN026", "group": 2 }]
+  ],
+  "mercredi": [
+    [
+      { "etype": "Cours", "name": "CALC", "code": "LU3IN030", "group": null },
+      { "etype": "Td", "name": "WEB", "code": "LU3IN017", "group": 2 },
+      { "etype": "Td", "name": "GL", "code": "LU3IN012", "group": 1 },
+      { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 5 }
+    ],
+    [
+      { "etype": "Cours", "name": "CRYPTO", "code": "LU3IN024", "group": null },
+      { "etype": "Tme", "name": "WEB", "code": "LU3IN017", "group": 2 },
+      { "etype": "Tme", "name": "GL", "code": "LU3IN012", "group": 1 },
+      { "etype": "Tme", "name": "SYS", "code": "LU3IN010", "group": 5 }
+    ],
+    [],
+    [
+      { "etype": "Cours", "name": "ECO", "code": "LU3IN027", "group": null },
+      { "etype": "Tme", "name": "DATA", "code": "LU3IN026", "group": 3 },
+      { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 3 }
+    ],
+    [
+      { "etype": "Td", "name": "ARCHI", "code": "LU3IN031", "group": 1 },
+      { "etype": "Td", "name": "CRYPTO", "code": "LU3IN024", "group": 2 },
+      { "etype": "Tme", "name": "DATA", "code": "LU3IN026", "group": 3 },
+      { "etype": "Tme", "name": "SYS", "code": "LU3IN010", "group": 3 }
+    ],
+    [
+      { "etype": "Tme", "name": "ARCHI", "code": "LU3IN031", "group": 1 },
+      { "etype": "Tme", "name": "CRYPTO", "code": "LU3IN024", "group": 2 }
+    ]
+  ],
+  "jeudi": [
+    [
+      { "etype": "Td", "name": "CRYPTO", "code": "LU3IN024", "group": 3 },
+      { "etype": "Td", "name": "COMPIL", "code": "LU3IN018", "group": 1 }
+    ],
+    [
+      { "etype": "Cours", "name": "GL", "code": "LU3IN012", "group": null },
+      { "etype": "Tme", "name": "CRYPTO", "code": "LU3IN024", "group": 3 },
+      { "etype": "Tme", "name": "COMPIL", "code": "LU3IN018", "group": 1 },
+      { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 4 }
+    ],
+    [],
+    [
+      { "etype": "Cours", "name": "IA", "code": "LU3IN025", "group": null },
+      { "etype": "Tme", "name": "PRECH", "code": "LU3IN013-rech", "group": 1 },
+      { "etype": "Td", "name": "GL", "code": "LU3IN012", "group": 2 },
+      { "etype": "Tme", "name": "SYS", "code": "LU3IN010", "group": 4 }
+    ],
+    [
+      { "etype": "Cours", "name": "ARCHI", "code": "LU3IN031", "group": null },
+      { "etype": "Tme", "name": "PRECH", "code": "LU3IN013-rech", "group": 1 },
+      { "etype": "Tme", "name": "GL", "code": "LU3IN012", "group": 2 },
+      { "etype": "Td", "name": "WEB", "code": "LU3IN017", "group": 3 },
+      { "etype": "Td", "name": "PAPPL", "code": "LU3IN013-app", "group": 1 }
+    ],
+    [{ "etype": "Tme", "name": "WEB", "code": "LU3IN017", "group": 3 }]
+  ],
+  "vendredi": [
+    [
+      { "etype": "Td", "name": "CALC", "code": "LU3IN030", "group": 2 },
+      { "etype": "Td", "name": "IA", "code": "LU3IN025", "group": 4 },
+      { "etype": "Td", "name": "COMPIL", "code": "LU3IN018", "group": 2 },
+      { "etype": "Td", "name": "WEB", "code": "LU3IN017", "group": 4 },
+      { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 7 }
+    ],
+    [
+      { "etype": "Cours", "name": "DATA", "code": "LU3IN026", "group": null },
+      { "etype": "Tme", "name": "CALC", "code": "LU3IN030", "group": 2 },
+      { "etype": "Tme", "name": "IA", "code": "LU3IN025", "group": 4 },
+      { "etype": "Tme", "name": "COMPIL", "code": "LU3IN018", "group": 2 },
+      { "etype": "Tme", "name": "WEB", "code": "LU3IN017", "group": 4 },
+      { "etype": "Tme", "name": "SYS", "code": "LU3IN010", "group": 7 }
+    ],
+    [],
+    [
+      { "etype": "Td", "name": "ECO", "code": "LU3IN027", "group": 1 },
+      { "etype": "Tme", "name": "PAPPL", "code": "LU3IN013-app", "group": 1 },
+      { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 6 }
+    ],
+    [
+      { "etype": "Td", "name": "ECO", "code": "LU3IN027", "group": 1 },
+      { "etype": "Tme", "name": "PAPPL", "code": "LU3IN013-app", "group": 1 },
+      { "etype": "Tme", "name": "SYS", "code": "LU3IN010", "group": 6 }
+    ],
+    []
+  ]
+}
