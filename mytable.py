@@ -1,9 +1,9 @@
 from parser import parse
 import sys
-from printer import toprettytable
+from printer import toprettytable, tomarkdowntable
 
 if len(sys.argv) < 1:
-    print("Usage: filter.py <filename>")
+    print("Usage: mytable.py <filename>")
     exit(1)
 
 COMPAR = ('LU3IN032', 'COMPAR')
@@ -20,7 +20,7 @@ ARCHI = ('LU3IN031', 'ARCHI')
 PAPPL = ('LU3IN013-app', 'PAPPL')
 SYS = ('LU3IN010', 'SYS')
 
-
+# TODO : choose your units and groups
 UNITS = [DATA[0], CRYPTO[0], WEB[0], GL[0], SYS[0]]
 
 GROUPS = {
@@ -60,4 +60,5 @@ DAYS = ["lundi", "mardi", "mercredi", "jeudi", "vendredi"]
 TIME = ["8h45 - 10h30", "10h45-12h30",
         "---", "14h - 15h45", "16h - 17h45", "18h - 19h45"]
 
-print(str(toprettytable(result, DAYS, TIME)))
+# print(str(toprettytable(result, DAYS, TIME)))
+print(tomarkdowntable(result, DAYS, TIME))
