@@ -5,6 +5,7 @@
       { "etype": "Cours", "name": "COMPAR", "code": "LU3IN032", "group": null },
       { "etype": "Tme", "name": "DATA", "code": "LU3IN026", "group": 1 },
       { "etype": "Td", "name": "IA", "code": "LU3IN025", "group": 1 },
+      { "etype": "Td", "name": "CRYPTO", "code": "LU3IN024", "group": 4 },
       { "etype": "Td", "name": "CRYPTO", "code": "LU3IN024", "group": 1 }
     ],
     [],
@@ -13,6 +14,7 @@
       { "etype": "Td", "name": "CALC", "code": "LU3IN030", "group": 1 },
       { "etype": "Tme", "name": "DATA", "code": "LU3IN026", "group": 1 },
       { "etype": "Tme", "name": "IA", "code": "LU3IN025", "group": 1 },
+      { "etype": "Tme", "name": "CRYPTO", "code": "LU3IN024", "group": 4 },
       { "etype": "Tme", "name": "CRYPTO", "code": "LU3IN024", "group": 1 }
     ],
     [
@@ -29,20 +31,19 @@
         "name": "PRECH",
         "code": "LU3IN013-rech",
         "group": null
-      }
+      },
+      { "etype": "Cours", "name": "DATA", "code": "LU3IN026", "group": null }
     ],
     [
       { "etype": "Cours", "name": "WEB", "code": "LU3IN017", "group": null },
-      { "etype": "Td", "name": "IA", "code": "LU3IN025", "group": 2 },
-      { "etype": "Td", "name": "CRYPTO", "code": "LU3IN024", "group": 4 }
+      { "etype": "Td", "name": "IA", "code": "LU3IN025", "group": 2 }
     ],
     [],
     [
       { "etype": "Cours", "name": "COMPIL", "code": "LU3IN018", "group": null },
       { "etype": "Tme", "name": "IA", "code": "LU3IN025", "group": 2 },
-      { "etype": "Tme", "name": "CRYPTO", "code": "LU3IN024", "group": 4 },
       { "etype": "Td", "name": "IA", "code": "LU3IN025", "group": 3 },
-      { "etype": "Td", "name": "WEB", "code": "LU3IN017", "group": 1 },
+      { "etype": "Tme", "name": "WEB", "code": "LU3IN017", "group": 1 },
       { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 1 }
     ],
     [
@@ -56,7 +57,7 @@
   "mercredi": [
     [
       { "etype": "Cours", "name": "CALC", "code": "LU3IN030", "group": null },
-      { "etype": "Td", "name": "WEB", "code": "LU3IN017", "group": 2 },
+      { "etype": "Tme", "name": "WEB", "code": "LU3IN017", "group": 2 },
       { "etype": "Td", "name": "GL", "code": "LU3IN012", "group": 1 },
       { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 5 }
     ],
@@ -114,15 +115,12 @@
     [
       { "etype": "Td", "name": "CALC", "code": "LU3IN030", "group": 2 },
       { "etype": "Td", "name": "IA", "code": "LU3IN025", "group": 4 },
-      { "etype": "Td", "name": "COMPIL", "code": "LU3IN018", "group": 2 },
-      { "etype": "Td", "name": "WEB", "code": "LU3IN017", "group": 4 },
+      { "etype": "Tme", "name": "WEB", "code": "LU3IN017", "group": 4 },
       { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 7 }
     ],
     [
-      { "etype": "Cours", "name": "DATA", "code": "LU3IN026", "group": null },
       { "etype": "Tme", "name": "CALC", "code": "LU3IN030", "group": 2 },
       { "etype": "Tme", "name": "IA", "code": "LU3IN025", "group": 4 },
-      { "etype": "Tme", "name": "COMPIL", "code": "LU3IN018", "group": 2 },
       { "etype": "Tme", "name": "WEB", "code": "LU3IN017", "group": 4 },
       { "etype": "Tme", "name": "SYS", "code": "LU3IN010", "group": 7 }
     ],
