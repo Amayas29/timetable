@@ -28,8 +28,8 @@
     [
       {
         "etype": "Cours",
-        "name": "PRECH",
-        "code": "LU3IN013-rech",
+        "name": "PAPPL",
+        "code": "LO3IN402",
         "group": null
       },
       { "etype": "Cours", "name": "DATA", "code": "LU3IN026", "group": null }
@@ -98,16 +98,16 @@
     [],
     [
       { "etype": "Cours", "name": "IA", "code": "LU3IN025", "group": null },
-      { "etype": "Tme", "name": "PRECH", "code": "LU3IN013-rech", "group": 1 },
+      { "etype": "Tme", "name": "PAPPL", "code": "LO3IN402", "group": 1 },
       { "etype": "Td", "name": "GL", "code": "LU3IN012", "group": 2 },
       { "etype": "Tme", "name": "SYS", "code": "LU3IN010", "group": 4 }
     ],
     [
       { "etype": "Cours", "name": "ARCHI", "code": "LU3IN031", "group": null },
-      { "etype": "Tme", "name": "PRECH", "code": "LU3IN013-rech", "group": 1 },
+      { "etype": "Tme", "name": "PAPPL", "code": "LO3IN402", "group": 1 },
       { "etype": "Tme", "name": "GL", "code": "LU3IN012", "group": 2 },
       { "etype": "Td", "name": "WEB", "code": "LU3IN017", "group": 3 },
-      { "etype": "Td", "name": "PAPPL", "code": "LU3IN013-app", "group": 1 }
+      { "etype": "Td", "name": "PRECH", "code": "LO3IN401", "group": 1 }
     ],
     [{ "etype": "Tme", "name": "WEB", "code": "LU3IN017", "group": 3 }]
   ],
@@ -127,12 +127,12 @@
     [],
     [
       { "etype": "Td", "name": "ECO", "code": "LU3IN027", "group": 1 },
-      { "etype": "Tme", "name": "PAPPL", "code": "LU3IN013-app", "group": 1 },
+      { "etype": "Tme", "name": "PRECH", "code": "LO3IN401", "group": 1 },
       { "etype": "Td", "name": "SYS", "code": "LU3IN010", "group": 6 }
     ],
     [
       { "etype": "Td", "name": "ECO", "code": "LU3IN027", "group": 1 },
-      { "etype": "Tme", "name": "PAPPL", "code": "LU3IN013-app", "group": 1 },
+      { "etype": "Tme", "name": "PRECH", "code": "LO3IN401", "group": 1 },
       { "etype": "Tme", "name": "SYS", "code": "LU3IN010", "group": 6 }
     ],
     []

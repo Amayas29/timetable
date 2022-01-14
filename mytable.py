@@ -11,13 +11,13 @@ DATA = ('LU3IN026', 'DATA')
 IA = ('LU3IN025', 'IA')
 CRYPTO = ('LU3IN024', 'CRYPTO')
 CALC = ('LU3IN030', 'CALC')
-PRECH = ('LU3IN013-rech', 'PRECH')
+PRECH = ('LO3IN401', 'PRECH')
 WEB = ('LU3IN017', 'WEB')
 COMPIL = ('LU3IN018', 'COMPIL')
 GL = ('LU3IN012', 'GL')
 ECO = ('LU3IN027', 'ECO')
 ARCHI = ('LU3IN031', 'ARCHI')
-PAPPL = ('LU3IN013-app', 'PAPPL')
+PAPPL = ('LO3IN402', 'PAPPL')
 SYS = ('LU3IN010', 'SYS')
 
 # TODO : choose your units and groups
@@ -30,7 +30,6 @@ GROUPS = {
     GL[0]: 2,
     SYS[0]: 6
 }
-
 
 tobj = parse(sys.argv[1])
 table = tobj.table
